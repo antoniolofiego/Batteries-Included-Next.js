@@ -5,7 +5,7 @@ module.exports = {
 		'^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
 	},
 	moduleNameMapper: {
-		'\\.(css|less|scss|sass)$': '<rootDir>/test/styleMock.js',
+		'\\.(css|less|scss|sass)$': '<rootDir>/styles/__mocks__/styleMock.js',
 		'^@pages/(.*)$': '<rootDir>/pages/$1',
 		'^@components/(.*)$': '<rootDir>/components/$1',
 	},
