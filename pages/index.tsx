@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 export default function Home() {
 	return (
@@ -14,7 +13,7 @@ export default function Home() {
 					<h1 className='text-[72px] bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 font-extrabold'>
 						Batteries Included Next.js
 					</h1>
-					<h2 className='text-2xl max-w-md mx-auto'>
+					<h2 className='max-w-md mx-auto text-2xl'>
 						A Next.js Boilerplate with TypeScript, Tailwind CSS and testing
 						suite enabled
 					</h2>
