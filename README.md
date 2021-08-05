@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project that includes Tailwind CSS in JIT mode, TypeScript and Jest with @testing-library with working TS Paths.
+This is a [Next.js](https://nextjs.org/) project that includes Tailwind CSS in JIT mode, TypeScript and Jest with @testing-library with working TS path aliases.
 
 ## Getting Started
 
