@@ -1,3 +1,5 @@
+![Batteries Included Next.js](https://i.imgur.com/EeZzfO0.png)
+
 This is a [Next.js](https://nextjs.org/) project that includes Tailwind CSS in JIT mode, TypeScript and Jest with @testing-library with working TS path aliases.
 
 ## Getting Started
