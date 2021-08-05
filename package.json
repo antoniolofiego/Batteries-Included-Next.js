@@ -1,22 +1,40 @@
 {
-  "name": "next-ts-boilerplate",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "11.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/react": "17.0.15",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.0.1",
-    "typescript": "4.3.5"
-  }
+	"name": "next-ts-boilerplate",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"css:dev": "TAILWIND_MODE=watch postcss ./styles/tailwind.css -o ./styles/globals.css --watch",
+		"css:build": "postcss ./styles/tailwind.css -o ./styles/globals.css",
+		"test": "jest"
+	},
+	"dependencies": {
+		"next": "11.0.1",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"@testing-library/dom": "^8.1.0",
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/react": "^12.0.0",
+		"@testing-library/user-event": "^13.2.1",
+		"@types/react": "17.0.15",
+		"autoprefixer": "^10.3.1",
+		"babel-jest": "^27.0.6",
+		"eslint": "7.32.0",
+		"eslint-config-next": "11.0.1",
+		"identity-obj-proxy": "^3.0.0",
+		"jest": "^27.0.6",
+		"jest-dom": "^4.0.0",
+		"node-mocks-http": "^1.10.1",
+		"postcss": "^8.3.6",
+		"postcss-cli": "^8.3.1",
+		"tailwindcss": "^2.2.7",
+		"ts-jest": "^27.0.4",
+		"ts-loader": "^9.2.5",
+		"typescript": "4.3.5"
+	}
 }
