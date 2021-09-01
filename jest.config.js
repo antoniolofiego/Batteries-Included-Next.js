@@ -9,4 +9,5 @@ module.exports = {
 		'^@pages/(.*)$': '<rootDir>/pages/$1',
 		'^@components/(.*)$': '<rootDir>/components/$1',
 	},
+	testEnvironment: 'jsdom',
 };
