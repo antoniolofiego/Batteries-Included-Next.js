@@ -12,14 +12,6 @@ npm run dev
 yarn dev
 ```
 
-To get JIT Tailwind as you develop, you also need to run:
-
-```bash
-npm run css:dev
-# or
-yarn css:dev
-```
-
 For testing, run:
 
 ```bash
