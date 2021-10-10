@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "(export PATH=$(npm bin):$PATH; trap 'jobs -pr | xargs kill' EXIT; TAILWIND_MODE=watch postcss ./styles/tailwind.css -o ./styles/globals.css --watch & next dev)",
+		"dev": "(export PATH=$(npm bin):$PATH; trap 'jobs -pr | xargs kill' EXIT; TAILWIND_MODE=watch postcss ./styles/tailwind.css -o ./styles/globals.css --watch </dev/zero & next dev)",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
