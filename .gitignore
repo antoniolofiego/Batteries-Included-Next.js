@@ -32,3 +32,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# postcss generated
+styles/globals.css
+
