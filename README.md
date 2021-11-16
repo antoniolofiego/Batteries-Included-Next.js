@@ -12,6 +12,14 @@ npm run dev
 yarn dev
 ```
 
+Then build the CSS file:
+
+```bash
+npm run css:build
+# or
+yarn css:build
+```
+
 To get JIT Tailwind as you develop, you also need to run:
 
 ```bash
