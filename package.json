@@ -7,8 +7,6 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"css:dev": "TAILWIND_MODE=watch postcss ./styles/tailwind.css -o ./styles/globals.css --watch",
-		"css:build": "postcss ./styles/tailwind.css -o ./styles/globals.css",
 		"test": "jest"
 	},
 	"dependencies": {
