@@ -4,28 +4,12 @@ This is a [Next.js](https://nextjs.org/) project that includes Tailwind CSS in J
 
 ## Getting Started
 
-First, run the development server:
+You can run a development environment simply by running:
 
 ```bash
 npm run dev
 # or
 yarn dev
-```
-
-Then build the CSS file:
-
-```bash
-npm run css:build
-# or
-yarn css:build
-```
-
-To get JIT Tailwind as you develop, you also need to run:
-
-```bash
-npm run css:dev
-# or
-yarn css:dev
 ```
 
 For testing, run:
@@ -36,6 +20,14 @@ npm run test
 yarn test
 ```
 
+For an optimized production build, run
+
+```bash
+npm run build
+# or
+yarn build
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file and Tailwind CSS will auto-generate classes as you add them.
